@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import styled from "styled-components";
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
@@ -63,13 +62,3 @@ export default function Home() {
     </div>
   )
 }
-
-
-// export async function getServerSideProps() {
-//   const res = await axios.get('https://jherr-pokemon.s3.us-west-1.amazonaws.com/index.json');
-//   return {
-//     props: {
-//       pokemon: res.data
-//     } // will be passed to the page component as props
-//   }
-// }
