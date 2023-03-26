@@ -50,7 +50,7 @@ export default function Home() {
       <Grid>
 
       {pokemons.map((pokemon) => (
-        <PokemonCard>
+        <PokemonCard key={pokemon.id}>
           <Link href={`/pokemon/${pokemon.id}`} >
             <img src={`https://jherr-pokemon.s3.us-west-1.amazonaws.com/${pokemon.image}`} alt='' />
             <h3>{pokemon.name}</h3>
