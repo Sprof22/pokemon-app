@@ -26,7 +26,6 @@ export const Grid = styled.div`
   margin: auto;
   width: 1440px;
   justify-content: space-between;
-  border: 1px solid green;
 
 `
 
