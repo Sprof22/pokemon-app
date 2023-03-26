@@ -69,6 +69,6 @@ export async function getStaticProps() {
   return {
     props: {
       pokemon: await res.json()
-    } // will be passed to the page component as propsd
+    } // will be passed to the page component as props
   }
 }
