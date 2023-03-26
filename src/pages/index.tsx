@@ -2,9 +2,9 @@ import Head from 'next/head'
 import styled from "styled-components";
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { Pokemons } from './data/pokemon';
+import { Pokemons } from '../data/pokemon';
 import axios from 'axios';
-import { useBusinessStore } from './store/pokemon';
+import { useBusinessStore } from '../store/pokemon';
 
 export const PokemonCard = styled.div`
 display: flex;
