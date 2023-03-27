@@ -16,7 +16,6 @@ img {
 
 h3{
   color: green;
-  line-height:
 }
 `
 
